@@ -1,4 +1,4 @@
-# Time Managment
+# Time Management
 
 ![Posnetek zaslona 2024-10-08 204327](https://github.com/user-attachments/assets/e065c803-4583-4ede-a762-7766fc08f6e9)
 
