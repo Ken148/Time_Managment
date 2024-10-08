@@ -32,5 +32,5 @@
 ### 🌐 Website
 Link: [TimeManagment](https://time.ken-turk.eu/index.php)
 
-### 📧Contact
+### 📧 Contact
 Info: ken.turk@scv.si
