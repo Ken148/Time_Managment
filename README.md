@@ -27,3 +27,6 @@
 
 ### Website
 Website: [ime.ken-turk.eu](https://time.ken-turk.eu/index.php)
+
+### Contact
+Info: ken.turk@scv.si
