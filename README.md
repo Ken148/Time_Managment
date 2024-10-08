@@ -21,9 +21,9 @@ This project was built by Ken Turk as part of a school assignment, with the goal
 |-----------------|-----------------------------------------------------------------------------------------|-------------------|
 | **Day 1**       | Creating the database and starting the Figma project                                    | Design + Code     |
 | **Day 2-7**     | Designing the website using Figma                                                       | Design            |
-| **Day 7-14**    | Exporting Figma design to CSS, HTML with Tailwind and uploading it to Neoserv           | Code              |
-| **Day 15**      | Adding the database to the website using phpMyAdmin                                     | Code              |
-| **Day 16**      | Developing the login and register functionality with PHP                                | Code              |
-| **Day 17-26**   | Developing the main page funtionality                                                   | Code              |
+| **Day 7-21**    | Exporting Figma design to CSS, HTML with Tailwind and uploading it to Neoserv           | Code              |
+| **Day 22**      | Adding the database to the website using phpMyAdmin                                     | Code              |
+| **Day 23**      | Developing the login and register functionality with PHP                                | Code              |
+| **Day 23-26**   | Developing the main page funtionality                                                   | Code              |
 | **Day 27**      | Creating pages for account settings and about page                                      | UI                |
 | **Day 28**      | Bug fixing and final tweaks                                                             | Code + UI         |
