@@ -1,0 +1,117 @@
+﻿/*
+Created: 1. 10. 2024
+Modified: 1. 10. 2024
+Model: RE MySQL 8.0
+Database: MySQL 8.0
+*/
+
+-- Create tables section -------------------------------------------------
+
+-- Table users
+
+CREATE TABLE `users`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `username` Varchar(200) NOT NULL,
+  `surname` Varchar(200),
+  `email` Varchar(200) NOT NULL,
+  `password` Varbinary(200) NOT NULL,
+  `picture_id` Int,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship12` ON `users` (`picture_id`)
+;
+
+-- Table activity
+
+CREATE TABLE `activity`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `date_time` Datetime NOT NULL,
+  `duration` Time NOT NULL,
+  `color` Char(20) NOT NULL,
+  `user_id` Int NOT NULL,
+  `category_id` Int NOT NULL,
+  `priority_id` Int NOT NULL,
+  `status_id` Int NOT NULL,
+  `description` Text,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship5` ON `activity` (`user_id`)
+;
+
+CREATE INDEX `IX_Relationship6` ON `activity` (`category_id`)
+;
+
+CREATE INDEX `IX_Relationship7` ON `activity` (`priority_id`)
+;
+
+CREATE INDEX `IX_Relationship8` ON `activity` (`status_id`)
+;
+
+-- Table catergories
+
+CREATE TABLE `catergories`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table priority
+
+CREATE TABLE `priority`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table status
+
+CREATE TABLE `status`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table pictures
+
+CREATE TABLE `pictures`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  `url` Varchar(2000) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Create foreign keys (relationships) section -------------------------------------------------
+
+ALTER TABLE `activity` ADD CONSTRAINT `Relationship5` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `activity` ADD CONSTRAINT `Relationship6` FOREIGN KEY (`category_id`) REFERENCES `catergories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `activity` ADD CONSTRAINT `Relationship7` FOREIGN KEY (`priority_id`) REFERENCES `priority` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `activity` ADD CONSTRAINT `Relationship8` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `users` ADD CONSTRAINT `Relationship12` FOREIGN KEY (`picture_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
