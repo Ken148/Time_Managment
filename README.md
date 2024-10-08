@@ -30,7 +30,7 @@
 | **Day 28**      | 🛠️ Bug fixing and final tweaks                                                             | Code + UI         |
 
 ### 🌐 Website
-Website: [TimeManagment](https://time.ken-turk.eu/index.php)
+Link: [TimeManagment](https://time.ken-turk.eu/index.php)
 
-### Contact
-📧 Info: ken.turk@scv.si
+### 📧Contact
+Info: ken.turk@scv.si
