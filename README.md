@@ -1,9 +1,11 @@
 # Time Management
 
 Index page
+
 ![Posnetek zaslona 2024-10-08 204327](https://github.com/user-attachments/assets/e065c803-4583-4ede-a762-7766fc08f6e9)
 
-Main page
+Scheduling an Event
+
 ![Posnetek zaslona 2024-10-08 205342](https://github.com/user-attachments/assets/758b3836-b72c-4f5e-8e79-7d91131d826d)
 
 ## 📅 Overview
