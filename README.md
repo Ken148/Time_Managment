@@ -1,7 +1,7 @@
 ## Overview
 - Time Management Mastery is a school project created to help users organize their time efficiently. By signing up, you gain access to a customizable calendar where you can add activities for specific days, track your progress with status updates, set task priorities, and organize activities into categories.
 
-###Features
+### Features
 - Custom Calendar: Add and manage your daily activities.
 - Progress Tracking: Set statuses for tasks and track how things are going.
 - Prioritization: Assign priority levels to your tasks.
@@ -10,7 +10,7 @@
 ### Technology Used
 - CSS, HTML, PHP, Tailwind, and Figma were used to develop this website.
 
-### Reason for Creation
+### Team
 - This project was built by Ken Turk as part of a school assignment, with the goal of providing a tool to help manage time effectively.   
 
 ## Development Timeline
