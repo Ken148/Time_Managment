@@ -26,7 +26,7 @@
 | **Day 28**      | Bug fixing and final tweaks                                                             | Code + UI         |
 
 ### Website
-Website: [ime.ken-turk.eu](https://time.ken-turk.eu/index.php)
+Website: [TimeManagment](https://time.ken-turk.eu/index.php)
 
 ### Contact
 Info: ken.turk@scv.si
