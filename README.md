@@ -8,6 +8,11 @@ Scheduling an Event
 
 ![Posnetek zaslona 2024-10-08 205342](https://github.com/user-attachments/assets/758b3836-b72c-4f5e-8e79-7d91131d826d)
 
+Settings
+
+![Posnetek zaslona 2024-10-09 220412](https://github.com/user-attachments/assets/191bf0e4-beda-4982-890c-f11a6261c131)
+
+
 ## 📅 Overview
 - Time Management Mastery is a school project created to help users organize their time efficiently. By signing up, you gain access to a customizable calendar where you can add activities for specific days, track your progress with status updates, set task priorities, and organize activities into categories.
 
