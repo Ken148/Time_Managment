@@ -6,7 +6,7 @@ Index page
 
 Scheduling an Event
 
-![Posnetek zaslona 2024-10-08 205342](https://github.com/user-attachments/assets/758b3836-b72c-4f5e-8e79-7d91131d826d)
+![Posnetek zaslona 2024-10-15 233439](https://github.com/user-attachments/assets/3d2d9bfe-e209-4095-a78a-71ea20aae4ab)
 
 Settings
 
