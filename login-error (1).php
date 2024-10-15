@@ -37,7 +37,7 @@ if (isset($_POST['sub'])) {
 }
 
 $client = new Google_Client();
-$client->setClientId('821732952400-8hb484idhmfrimj04ulkrh1icg1r0hek.apps.googleusercontent.com'); 
+$client->setClientId(''); 
 $client->setClientSecret('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'); 
 $client->setRedirectUri('https://time.ken-turk.eu/callback.php'); 
 $client->addScope("email");
