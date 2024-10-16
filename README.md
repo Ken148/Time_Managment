@@ -14,7 +14,7 @@ Settings
 
 
 ## 📅 Overview
-- Time Management Mastery is a school project created to help users organize their time efficiently. By signing up, you gain access to a customizable calendar where you can add activities for specific days, track your progress with status updates, set task priorities, and organize activities into categories.
+- Time Management is a school project created to help users organize their time efficiently. By signing up, you gain access to a customizable calendar where you can add activities for specific days, track your progress with status updates, set task priorities, and organize activities into categories.
 
 ### Features
 - 📅 **Custom Calendar**: Add and manage your daily activities.
